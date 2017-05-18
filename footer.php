@@ -21,8 +21,9 @@
                     <h5>NEWSLETTER</h5>
                     <hr>
                     <p>Subscribe to get special offers, free giveawaysand once-in a lifetime deals.</p>
-                    <form>
-                        <input class="email" type="email" placeholder="your-email@example.com">
+                    <form action="reception.php" method="post">
+                        <input name="name" class="name" type="text" placeholder=" your name" minlength="2" required>
+                        <input name="email" class="email" type="email" placeholder=" your-email@example.com" required>
                         <input class="submit "type="submit" value="SUBSCRIBE">
                     </form>
                 </article>
@@ -37,5 +38,8 @@
                 </ul>
             </section>
         </footer>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
