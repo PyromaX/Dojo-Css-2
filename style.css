@@ -238,6 +238,7 @@ hr{
     border-radius: 4px;
     font-family: "sans-serif","Josefin Sans";
     font-weight: bolder;
+    cursor: pointer;
 }
 
 p, .email{
@@ -248,4 +249,82 @@ h5{
     font-weight: normal;
     letter-spacing: 1px;
 }
+hr{
+    padding: 0;
+    width: 80%;
+}
+.list_mag {
+    width: 100%;
+    padding: 0;
+}
+.list_mag article {
+    padding: 0;
+    border: none;
+}
+.britness {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 60px 10px 50px 10px;
+    border: none;
+}
+.magasin {
+    color: white;
+}
+.mag_attr1 {
+    color: white;
+    padding-left: 6vw;
+}
+.mag_attr2 {
+    color: white;
+}
+.espa {
+    color: white;
+}
 
+.ville1 {
+    background-image: url("./img/newyork.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ville2 {
+    background-image: url("./img/houston.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ville3 {
+    background-image: url("./img/SanAntonio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ville4 {
+    background-image: url("./img/dallas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ville5 {
+    background-image: url("./img/washington.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ville6 {
+    background-image: url("./img/Indianapolis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ville7 {
+    background-image: url("./img/detroit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ville8 {
+    background-image: url("./img/nashville.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ville9 {
+    background-image: url("./img/gotham.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
